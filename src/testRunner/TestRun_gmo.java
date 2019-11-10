@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		glue="hooks",
 				monochrome=true,
 				dryRun=false,
-				plugin = {"pretty", "html:target/cucumber-html-report"},
+				plugin = {"pretty", "html:target/cucumber-html-report"}
 		
 		//tags= {"@Sofeature"}
 		//tags = {"@Sofeature","@GMOHome,@SmokeTest,@Regression,@Catalog,@SelectItems,@PlaceOrder,@Billing,@Receipt"}
